@@ -24,19 +24,14 @@ namespace assignment_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
             if (comboBox2.SelectedIndex == 0)
             {
-                textBox2
+                double r1 = Convert.ToDouble(textBox1.Text);
+                double r2 = Convert.ToDouble(textBox2.Text);
+                double r3 = Convert.ToDouble(textBox3.Text);
+                double r4 = Convert.ToDouble(textBox4.Text);
+                double r5 = Convert.ToDouble(textBox5.Text);
+
             }
         }
     }
